@@ -1,0 +1,30 @@
+Drone selection,1
+change speed,10
+move up,11
+move down,12
+Advance,13
+backward,14
+move left,15
+move right,16
+clockwise rotation,17
+counterclockwise rotation,18
+Check,19
+Group selection,2
+Cancel,20
+One,21
+Two,22
+Three,23
+Four,24
+Five,25
+Six,26
+Seven,27
+Eight,28
+Nine,29
+Mode selection (MODE),3
+Ten,30
+Startup (ARM),4
+DISARM,5
+TAKEOFF,6
+LAND,7
+Return (RTL),8
+altitude change,9
