@@ -23,7 +23,7 @@ def capture_gesture(class_name, num_gestures=1, duration_per_gesture=3):
         print(f"\nCollecting Gesture {gesture_num}...")
         sleep(1)
 
-        cap = cv2.VideoCapture("http://192.168.1.105:8080/video")
+        cap = cv2.VideoCapture("http://192.168.x.yyy:9090/video")
         # cap.set(3, 640)
         # cap.set(4, 480)
 
@@ -53,7 +53,6 @@ def capture_gesture(class_name, num_gestures=1, duration_per_gesture=3):
     print(f"Gesture collection for class '{class_name}' completed.")
 
 if __name__ == "__main__":
-    classes_to_collect = ["1 Drone selection", "2 Group selection", "3 Mode selection", "4 Startup (ARM)", "5 DISARM", "6 Take off", "7 Land", "8 Return (RTL)", "9 Altitude change", "10 Speed change", "11 Move up", "12 Move down",
-                          "13 Advance", "14 Backward", "15 Move left", "16 Move right", "17 Clockwise", "18 Counter clockwise", "19 Check", "20 Cancel", "21 One", "22 Two", "23 Three", "24 Four", "25 Five", "26 Six", "27 Seven", "28 Eight", "29 Nine", "30 Ten"]
+    classes_to_collect = ["1 Drone selection", "your label2", "your label2" ... etc]
     for class_name in classes_to_collect:
         capture_gesture(class_name)
